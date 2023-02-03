@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/spomtifyicon.ico">
+    <title>Spomtify - My Famvourite Music</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" id="logo" alt="Spomtify Logo">Spomtify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songlist">
+            <h1>From Rajdeep's Collection - Tracks!</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img alt="love story cover">
+                    <span class="songName">Love Story - Taylor Swift</span>
+                    <span class="songlistplay"><span class="timestamp">03:56 <i id="lovestory" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="mine cover">
+                    <span class="songName">Mine - Taylor Swift</span>
+                    <span class="songlistplay"><span class="timestamp">03:55 <i id="mine" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="bala nacho toh dekhi cover">
+                    <span class="songName">Bala Nacho Toh Dekhi - BengaliFolk</span>
+                    <span class="songlistplay"><span class="timestamp">04:25 <i id="bala" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="Ramayan cover">
+                    <span class="songName">Shree Raghuveer ki Vanar Sena</span>
+                    <span class="songlistplay"><span class="timestamp">03:22 <i id="ramayan" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="bones cover">
+                    <span class="songName">Bones (The Boys) - Imagine Dragons</span>
+                    <span class="songlistplay"><span class="timestamp">02:45 <i id="bones" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="tere liye cover">
+                    <span class="songName">Tere Liye - Veer Zaara</span>
+                    <span class="songlistplay"><span class="timestamp">05:33 <i id="tereliye" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="aarambh hai cover">
+                    <span class="songName">Aarambh Hai Prachand - Hindutva</span>
+                    <span class="songlistplay"><span class="timestamp">04:36 <i id="aarambh" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="khalibali cover">
+                    <span class="songName">Khalibali - Padmaavat</span>
+                    <span class="songlistplay"><span class="timestamp">03:24 <i id="khalibali" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="banner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="progressBar" value="0" min="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons-->
+            <i class="fas fa-3x fa-step-backward" id="previous"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" alt="Music GIF" width="42px" id="gif"><span id="masterSongName">Love Story - Taylor Swift</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/3c1fbe556c.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
